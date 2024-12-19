@@ -1,0 +1,145 @@
+{
+    "moonwell": {
+        "name": "Moonwell",
+        "type": "LENDING",
+        "addresses": {
+            "comptroller": "0xfBb21d0380beE3312B33c4353c8936a0F13EF26C",
+            "markets": {
+                "WETH": "0x628ff693426583D9a7FB391E54366292F509D457",
+                "USDbC": "0x703843C3379b52F9FF486c9f5892218d2a065cC8",
+                "DAI": "0x73b06D8d18De422E269645eaCe15400DE7462417",
+                "cbBTC": "0xF877ACaFA28c19b96727966690b2f44d35aD5976",
+                "EUROC": "0xb682c840B5F4FC58B20769E691A6fa1305A501a2",
+                "mwUSDC Morpho Vault": "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca",
+                "mwETH Morpho Vault": "0xa0E430870c4604CcfC7B38Ca7845B1FF653D0ff1",
+                "mwEURC Morpho Vault": "0xf24608E0CCb972b0b0f4A6446a0BBf58c701a026",
+                "mwcbBTC Morpho Vault": "0x543257ef2161176d7c8cd90ba65c2d4caef5a796"
+            }
+        },
+        "supportedActions": [
+            "SUPPLY",
+            "WITHDRAW",
+            "BORROW",
+            "REPAY"
+        ]
+    },
+    "morpho": {
+        "name": "Morpho",
+        "type": "YIELD",
+        "addresses": {
+            "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+            "metamorphoFactory": "0xA9c3D3a366466Fa809d1Ae982Fb2c46E5fC41101"
+        },
+        "vaults": {
+            "steakhouse": {
+                "USDC": {
+                    "address": "0xbeeF01ecE556c53793F864F3bEd65779339f1B83",
+                    "performanceFee": 500,
+                    "timelock": 7
+                },
+                "WETH": {
+                    "address": "0xbEEf053A85F7Af15664030B08A6F36eC864F073e",
+                    "performanceFee": 500,
+                    "timelock": 7
+                },
+                "EURC": {
+                    "address": "0xBeEF08582B3513b14B89dB85557293474e8473b5",
+                    "performanceFee": 500,
+                    "timelock": 1
+                }
+            },
+            "gauntlet": {
+                "USDC Core": {
+                    "address": "0xc0c5688463a7aEfB2a9EAf3491FC7AA02a912012",
+                    "performanceFee": 1000,
+                    "timelock": 1
+                },
+                "WETH Core": {
+                    "address": "0x6b13c0A77895c2F81E7B3840555959195C814044",
+                    "performanceFee": 1000,
+                    "timelock": 1
+                },
+                "cbBTC Core": {
+                    "address": "0x677021c526738067115e1a6d98d4457726921Cb",
+                    "performanceFee": 1000,
+                    "timelock": 1
+                },
+                "EURC Core": {
+                    "address": "0x1c155B6685B0d0C1e8649B208d22C9C6e07695f5",
+                    "performanceFee": 1000,
+                    "timelock": 1
+                }
+            }
+        },
+        "supportedActions": [
+            "SUPPLY",
+            "WITHDRAW"
+        ]
+    },
+    "aerodrome": {
+        "name": "Aerodrome",
+        "type": "DEX",
+        "addresses": {
+            "basic": {
+                "router": "0xcF77a3Ba9A5CA399B7c97c74d54e5b1Beb874E43",
+                "factory": "0x420DD381b31aEf6683db6B902084cB0FFECe40Da",
+                "gaugeFactory": "0x35f35cA5B132CaDf2916BaB57639128eAC5bbcb5"
+            },
+            "slipstream": {
+                "NonfungiblePositionManager": "0x827922686190790b37229fd06084350E74485b72",
+                "factory": "0x5e7BB104d84c7CB9B682AaC2F3d509f5F406809A",
+                "guageFactory": "0x35f35cA5B132CaDf2916BaB57639128eAC5bbcb5"
+            }
+        },
+        "pools": {
+            "WETH-AERO": {
+                "lpToken": "0x7f670f78B17dEC44d5Ef68a48740b6f8849cc2e6",
+                "gauge": "0x96a24aB830D4ec8b1F6f04Ceac104F1A3b211a01",
+                "isStable": false,
+                "type": "basic"
+            },
+            "WETH-USDC": {
+                "lpToken": "0xcDAC0d6c6C59727a65F871236188350531885C43",
+                "gauge": "0x519BBD1Dd8C6A94C46080E24f316c14Ee758C025",
+                "isStable": false,
+                "type": "basic"
+            },
+            "USDC-AERO": {
+                "lpToken": "0x6cDcb1C4A4D1C3C6d054b27AC5B77e89eAFb971d",
+                "gauge": "0x4F09bAb2f0E15e2A078A227FE1537665F55b8360",
+                "isStable": false,
+                "type": "basic"
+            },
+            "WETH-WELL": {
+                "lpToken": "0x89D0F320ac73dd7d9513FFC5bc58D1161452a657",
+                "gauge": "0x7b6964440b615aC1d31bc95681B133E112fB2684",
+                "isStable": false,
+                "type": "basic"
+            },
+            "WETH-cbBTC": {
+                "lpToken": "0x2578365B3dfA7FfE60108e181EFb79FeDdec2319",
+                "gauge": "0xAFdEBa12B6a870d6639d043030b4b49F9C7c62BB",
+                "isStable": false,
+                "type": "basic"
+            },
+            "CL/USDC-cbBTC": {
+                "lpToken": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
+                "gauge": "0x6399ed6725cC163D019aA64FF55b22149D7179A8",
+                "isStable": false,
+                "type": "concentrated"
+            },
+            "CL/WETH-cbBTC": {
+                "lpToken": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+                "gauge": "0x41b2126661C673C2beDd208cC72E85DC51a5320a",
+                "isStable": false,
+                "type": "concentrated"
+            }
+        },
+        "supportedActions": [
+            "SUPPLY",
+            "WITHDRAW",
+            "STAKE",
+            "UNSTAKE"
+        ]
+    }
+}

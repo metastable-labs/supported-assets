@@ -47,5 +47,12 @@
         "symbol": "USDC",
         "name": "USDC",
         "logo": "https://assets.smold.app/api/token/8453/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913/logo-128.png"
+    },
+    "WELL": {
+        "address": "0xA88594D404727625A9437C3f886C7643872296AE",
+        "decimals": 18,
+        "symbol": "WELL",
+        "name": "WELL",
+        "logo": "https://assets.smold.app/api/token/8453/0xA88594D404727625A9437C3f886C7643872296AE/logo-128.png"
     }
 }
