@@ -25,7 +25,7 @@
     },
     "morpho": {
         "name": "Morpho",
-        "type": "YIELD",
+        "type": "LENDING",
         "addresses": {
             "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
             "metamorphoFactory": "0xA9c3D3a366466Fa809d1Ae982Fb2c46E5fC41101"
