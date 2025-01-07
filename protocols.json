@@ -5,15 +5,16 @@
         "addresses": {
             "comptroller": "0xfBb21d0380beE3312B33c4353c8936a0F13EF26C",
             "markets": {
-                "WETH": "0x628ff693426583D9a7FB391E54366292F509D457",
-                "USDbC": "0x703843C3379b52F9FF486c9f5892218d2a065cC8",
-                "DAI": "0x73b06D8d18De422E269645eaCe15400DE7462417",
-                "cbBTC": "0xF877ACaFA28c19b96727966690b2f44d35aD5976",
-                "EUROC": "0xb682c840B5F4FC58B20769E691A6fa1305A501a2",
-                "mwUSDC Morpho Vault": "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca",
-                "mwETH Morpho Vault": "0xa0E430870c4604CcfC7B38Ca7845B1FF653D0ff1",
-                "mwEURC Morpho Vault": "0xf24608E0CCb972b0b0f4A6446a0BBf58c701a026",
-                "mwcbBTC Morpho Vault": "0x543257ef2161176d7c8cd90ba65c2d4caef5a796"
+                "MOONWELL_WETH": "0x628ff693426583D9a7FB391E54366292F509D457",
+                "MOONWELL_USDbC": "0x703843C3379b52F9FF486c9f5892218d2a065cC8",
+                "MOONWELL_USDC": "0xEdc817A28E8B93B03976FBd4a3dDBc9f7D176c22",
+                "MOONWELL_DAI": "0x73b06D8d18De422E269645eaCe15400DE7462417",
+                "MOONWELL_cbBTC": "0xF877ACaFA28c19b96727966690b2f44d35aD5976",
+                "MOONWELL_EUROC": "0xb682c840B5F4FC58B20769E691A6fa1305A501a2",
+                "mwUSDC_Morpho_Vault": "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca",
+                "mwETH_Morpho_Vault": "0xa0E430870c4604CcfC7B38Ca7845B1FF653D0ff1",
+                "mwEURC_Morpho_Vault": "0xf24608E0CCb972b0b0f4A6446a0BBf58c701a026",
+                "mwcbBTC_Morpho_Vault": "0x543257ef2161176d7c8cd90ba65c2d4caef5a796"
             }
         },
         "supportedActions": [
@@ -28,44 +29,44 @@
         "type": "LENDING",
         "addresses": {
             "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
-            "metamorphoFactory": "0xA9c3D3a366466Fa809d1Ae982Fb2c46E5fC41101"
+            "metamorphoFactory": "0xFf62A7c278C62eD665133147129245053Bbf5918"
         },
         "vaults": {
             "steakhouse": {
                 "USDC": {
-                    "address": "0xbeeF01ecE556c53793F864F3bEd65779339f1B83",
+                    "address": "0xbeeF010f9cb27031ad51e3333f9aF9C6B1228183",
                     "performanceFee": 500,
                     "timelock": 7
                 },
                 "WETH": {
-                    "address": "0xbEEf053A85F7Af15664030B08A6F36eC864F073e",
+                    "address": "0xbEEf050a7485865A7a8d8Ca0CC5f7536b7a3443e",
                     "performanceFee": 500,
                     "timelock": 7
                 },
                 "EURC": {
-                    "address": "0xBeEF08582B3513b14B89dB85557293474e8473b5",
+                    "address": "0xBeEF086b8807Dc5E5A1740C5E3a7C4c366eA6ab5",
                     "performanceFee": 500,
                     "timelock": 1
                 }
             },
             "gauntlet": {
                 "USDC Core": {
-                    "address": "0xc0c5688463a7aEfB2a9EAf3491FC7AA02a912012",
+                    "address": "0xc0c5689e6f4D256E861F65465b691aeEcC0dEb12",
                     "performanceFee": 1000,
                     "timelock": 1
                 },
                 "WETH Core": {
-                    "address": "0x6b13c0A77895c2F81E7B3840555959195C814044",
+                    "address": "0x6b13c060F13Af1fdB319F52315BbbF3fb1D88844",
                     "performanceFee": 1000,
                     "timelock": 1
                 },
                 "cbBTC Core": {
-                    "address": "0x677021c526738067115e1a6d98d4457726921Cb",
+                    "address": "0x6770216aC60F634483Ec073cBABC4011c94307Cb",
                     "performanceFee": 1000,
                     "timelock": 1
                 },
                 "EURC Core": {
-                    "address": "0x1c155B6685B0d0C1e8649B208d22C9C6e07695f5",
+                    "address": "0x1c155be6bC51F2c37d472d4C2Eba7a637806e122",
                     "performanceFee": 1000,
                     "timelock": 1
                 }
@@ -82,12 +83,12 @@
         "addresses": {
             "basic": {
                 "router": "0xcF77a3Ba9A5CA399B7c97c74d54e5b1Beb874E43",
-                "factory": "0x420DD381b31aEf6683db6B902084cB0FFECe40Da",
+                "poolFactory": "0x420DD381b31aEf6683db6B902084cB0FFECe40Da",
                 "gaugeFactory": "0x35f35cA5B132CaDf2916BaB57639128eAC5bbcb5"
             },
             "slipstream": {
                 "NonfungiblePositionManager": "0x827922686190790b37229fd06084350E74485b72",
-                "factory": "0x5e7BB104d84c7CB9B682AaC2F3d509f5F406809A",
+                "poolFactory": "0x5e7BB104d84c7CB9B682AaC2F3d509f5F406809A",
                 "guageFactory": "0x35f35cA5B132CaDf2916BaB57639128eAC5bbcb5"
             }
         },
